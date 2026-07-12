@@ -1,4 +1,4 @@
-// TASK ONE
+// // TASK ONE
 console.log("TASK ONE");
 function doubleNumbers(arr) {
     var newArr = arr.map(function (ele) {
@@ -8,7 +8,7 @@ function doubleNumbers(arr) {
 }
 doubleNumbers([2, 5, 100]);
 
-// TASK TWO
+// // TASK TWO
 console.log("TASK TWO");
 function stringItUp(arr) {
     var newArr = arr.map(function (ele) {
@@ -18,17 +18,17 @@ function stringItUp(arr) {
 }
 stringItUp([2, 5, 100]);
 
-// TASK THREE
+// // TASK THREE
 console.log("TASK THREE");
 function capitalizeNames(arr) {
     var newArr = arr.map(function (ele) {
-        return ele.toUpperCase();
+        return ele[0].toUpperCase() + ele.slice(1).toLowerCase();
     });
     console.log(newArr);
 }
 capitalizeNames(["john", "JACOB", "jinGleHeimer", "schmidt"]);
 
-// TASK FOUR
+// // TASK FOUR
 console.log("TASK FOUR");
 function namesOnly(arr) {
     var newArr = arr.map(function (ele) {
@@ -59,7 +59,7 @@ namesOnly([
     },
 ]);
 
-// TASK FIVE
+// // TASK FIVE
 console.log("TASK FIVE");
 function canGoToTheMatrix(arr) {
     var newArr = arr.map(function (ele) {
@@ -94,7 +94,7 @@ canGoToTheMatrix([
     },
 ]);
 
-// TASK SIX
+// // TASK SIX
 console.log("TASK SIX");
 function readyToPutInTheDOM(arr) {
     var newArr = arr.map(function (ele) {
@@ -125,7 +125,7 @@ readyToPutInTheDOM([
     },
 ]);
 
-// TASK SEVEN
+// // TASK SEVEN
 console.log("TASK SEVEN");
 function doubleValues(arr) {
     var newArr = arr.map(function (ele) {
@@ -136,7 +136,7 @@ function doubleValues(arr) {
 doubleValues([1, 2, 3]);
 doubleValues([1, -2, -3]);
 
-// TASK EIGHT
+// // TASK EIGHT
 console.log("TASK EIGHT");
 function valTimesIndex(arr) {
     var newArr = arr.map(function (ele, index) {
@@ -147,7 +147,7 @@ function valTimesIndex(arr) {
 valTimesIndex([1, 2, 3]);
 valTimesIndex([1, -2, -3]);
 
-// TASK NINE
+// // TASK NINE
 console.log("TASK NINE");
 function extractKey(arr, key) {
     var newArr = arr.map(function (ele) {
@@ -160,7 +160,7 @@ extractKey(
     "name",
 );
 
-// TASK TEN
+// // TASK TEN
 console.log("TASK TEN");
 function extractFullName(arr) {
     var newArr = arr.map(function (ele) {
