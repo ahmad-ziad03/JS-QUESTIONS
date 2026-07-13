@@ -117,3 +117,4 @@ six.onclick = function () {
     six.style.backgroundColor = "red";
     six.style.transition = "3s";
 };
+// just to edit the commit
