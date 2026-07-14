@@ -10,7 +10,7 @@ loginBtn.onclick = function () {
     var storedEmail = localStorage.getItem(email + "email");
     var storedPassword = localStorage.getItem(email + "_password");
 
-    if (storedPassword === null || ) {
+    if (storedPassword === null) {
         message.textContent = "No account found with this email.";
     } else {
         if (storedPassword === password) {

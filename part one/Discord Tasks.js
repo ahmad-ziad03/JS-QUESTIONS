@@ -38,9 +38,9 @@ greet("ahmad");
 
 // FIVE
 console.log("Task 5");
-console.log(`in the first one it used a var without that is unknown
-    in the second one it sets a number as a parameter and used a var without that is unknown
-    in the third one it sets a string as a parameter used a var without that is unknown`);
+console.log(`in the first one it used a var without that is undefined
+    in the second one it sets a number as a parameter and used a var that is undefined
+    in the third one it sets a string as a parameter used a var that is undefined`);
 
 // SIX
 console.log("Task 6");
@@ -94,7 +94,7 @@ function sameLength(firstWord, secondWord) {
 sameLength("ahmad", 12345);
 
 // ELEVEN
-// console.log("Task 11");
+console.log("Task 11");
 function largerNubmer(num1, num2) {
     if (num1 > num2) {
         return num1;

@@ -6,6 +6,11 @@ div1.onmouseenter = function () {
     div1.style.fontWeight = "bold";
 };
 
+div1.onmouseleave = function () {
+    div1.style.backgroundColor = "white";
+    div1.style.fontWeight = "normal";
+};
+
 // TASK TWO
 console.log("TASK TWO");
 var countries = document.getElementById("countries");
