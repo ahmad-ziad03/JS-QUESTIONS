@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-right: 5px;
+        }
+
+        input {
+            margin-right: 20px;
+            padding: 4px;
+        }
+
+        button {
+            padding: 6px 10px;
+        }
+
+        #colorOutput span {
+            padding: 4px 8px;
+            margin-right: 5px;
+        }
+
+        .name-color {
+            background-color: green;
+            color: white;
+        }
+
+        .email-color {
+            background-color: red;
+            color: white;
+        }
+
+        .mobile-color {
+            background-color: yellow;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table,
+        td {
+            border: 2px solid black;
+        }
+
+        td {
+            padding: 5px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form-row">
+        <label>Name:</label>
+        <input type="text" id="nameInput">
+
+        <label>Email:</label>
+        <input type="text" id="emailInput">
+
+        <label>Mobile:</label>
+        <input type="text" id="mobileInput">
+
+        <button onclick="printData()">Click On Me to Print</button>
+    </div>
+
+    <div id="colorOutput"></div>
+
+    <table>
+        <tr id="boxOutput"></tr>
+    </table>
+    <script src="Task 1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <style>
+        .card {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="profileForm">
+        <label for="name">Name</label>
+        <input type="text" id="name"><br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age"><br><br>
+
+        <label for="gender">Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"><br><br>
+
+        <label for="dis">Brief Description</label><br>
+        <textarea id="dis" rows="5" cols="40"></textarea><br><br>
+
+        <label for="major">Major and University</label>
+        <input type="text" id="major"><br><br>
+
+        <label>Programming Language you prefer (choose at least 3)</label><br>
+        <label for="js">JS</label>
+        <input type="checkbox" id="js" value="JavaScript">
+        <label for="php">PHP</label>
+        <input type="checkbox" id="php" value="PHP">
+        <label for="java">Java</label>
+        <input type="checkbox" id="java" value="Java">
+        <label for="py">Python</label>
+        <input type="checkbox" id="py" value="Python">
+        <label for="csharp">C#</label>
+        <input type="checkbox" id="csharp" value="C#">
+        <label for="cpp">C++</label>
+        <input type="checkbox" id="cpp" value="C++"><br><br>
+
+        <p id="hint" style="color:red;"></p>
+
+        <button type="submit" id="sub">Submit</button>
+    </form>
+
+    <h2>Saved Profiles</h2>
+    <div id="cards"></div>
+    <script src="Task 1.js"></script>
+</body>
+
+</html>

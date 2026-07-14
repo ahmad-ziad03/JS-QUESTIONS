@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        #header {
+            background-color: #1a1a70;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border: 1;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #1a1a70;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="header" onclick="showTable()" ondblclick="hideTable()">
+        Click to show Table / Double Click to hide Table
+    </div>
+
+    <table id="dataTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+    <script src="Task 2.js"></script>
+</body>
+
+</html>
